@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI Text_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 6d76f8bacad756649a5b2dc0e784fbf0, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 905651682907521028
+  m_TableData:
+  - m_Id: 177217986560
+    m_Localized: start new game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6475431010304
+    m_Localized: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8949592219648
+    m_Localized: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9117129498624
+    m_Localized: volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9285551775744
+    m_Localized: continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9425800912896
+    m_Localized: quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9492616175616
+    m_Localized: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164953810264064
+    m_Localized: game over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165507785547776
+    m_Localized: new game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165567545991168
+    m_Localized: main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 508532755783680
+    m_Localized: pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 597781634273280
+    m_Localized: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166862804934656
+    m_Localized: 'STATS
+
+      speed: {0}
+
+      firerate: {1}
+
+      regeneration:
+      {2}
+
+      damage: {3}'
+    m_Metadata:
+      m_Items:
+      - rid: 905651682907521028
+  - m_Id: 2852653495476224
+    m_Localized: Anger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2852710538010624
+    m_Localized: Laziness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2852780956180480
+    m_Localized: Fear
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 905651682907521028
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00e0c30fc0b20700

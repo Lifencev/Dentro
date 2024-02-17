@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 65dfdaddbaad9264085e5c65c7599f03
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Surf: {fileID: 4819196632177693224, guid: 05b4751c4584305498da78210838e733, type: 3}
+  - Surf2: {fileID: 7849827076008449347, guid: 72847c5186f6178458360e1298abc2b6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

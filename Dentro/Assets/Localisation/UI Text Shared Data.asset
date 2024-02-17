@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Text
+  m_TableCollectionNameGuidString: 6d76f8bacad756649a5b2dc0e784fbf0
+  m_Entries:
+  - m_Id: 9117129498624
+    m_Key: VolumeText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177217986560
+    m_Key: StartNewGameText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6475431010304
+    m_Key: SettingsTextMainMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9425800912896
+    m_Key: QuitText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 508532755783680
+    m_Key: PauseText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165507785547776
+    m_Key: NewGameText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595671148580864
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165567545991168
+    m_Key: MainMenuText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8949592219648
+    m_Key: LanguageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164953810264064
+    m_Key: GameOverText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9285551775744
+    m_Key: ContinueText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9492616175616
+    m_Key: BackText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 597781634273280
+    m_Key: SettingsMainMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166862804934656
+    m_Key: StatsText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2852653495476224
+    m_Key: AngerText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2852710538010624
+    m_Key: LazinessText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2852780956180480
+    m_Key: FearText
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 905651551849414658
+  references:
+    version: 2
+    RefIds:
+    - rid: 905651551849414658
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1670978099773

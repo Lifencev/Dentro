@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8952274976811412588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 544280488228816041}
+  - component: {fileID: 9033472597446054332}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &544280488228816041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8952274976811412588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.809395, y: 59.924896, z: -10.40524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9033472597446054332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8952274976811412588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 112654bc7b45d4b44a933201e5e2c561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: f9dafb7dcd4f7ab408e700257625550e, type: 2}
+  sounds:
+  - name: dentro_level
+    clip: {fileID: 8300000, guid: 22041a74278e6974a87e3a4a3859bce2, type: 3}
+    loop: 1
+    volume: 0.326
+    pitch: 1
+    source: {fileID: 0}
+  - name: player_shot
+    clip: {fileID: 8300000, guid: 71f1e183dcc138b4c995b99f8bf4899e, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: surf_destroy
+    clip: {fileID: 8300000, guid: 7d5c9a438d9c9ba4fbe9d9c4230b3853, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: blob_damage
+    clip: {fileID: 8300000, guid: 8b81d049d809b3f43b63364bc4e1b44b, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: blob_death
+    clip: {fileID: 8300000, guid: c861d372b70640f489a11e13bc6fc008, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: main_theme
+    clip: {fileID: 8300000, guid: 4452088022b0022469be6b278baf3c7a, type: 3}
+    loop: 1
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: click
+    clip: {fileID: 8300000, guid: ab709cd42c82a9a478b5bd34468f71b1, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: fear_attack
+    clip: {fileID: 8300000, guid: 2e57ee718c1664647b06c0772e61b6ea, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: fear_damage
+    clip: {fileID: 8300000, guid: f921d97c9ba27a843893c7cdae107111, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: fear_death
+    clip: {fileID: 8300000, guid: 475b72d253c1bbe4c9ec52152cd2a475, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: fear_projectile
+    clip: {fileID: 8300000, guid: 385202085ac51f24bbd46a8fa6fd30ad, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: player_damage
+    clip: {fileID: 8300000, guid: 0285c07fbe4d0014ab4fd2f54e6bd55f, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: dentro_gameover
+    clip: {fileID: 8300000, guid: 7d9de830a180e6941bc4c2388b703e4c, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: boss_damage
+    clip: {fileID: 8300000, guid: 96c1695a8e30dca4bbe0cae698be837f, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: boss_death
+    clip: {fileID: 8300000, guid: bb063dad1aa14a243899b80f9790d8f7, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: boss_shot
+    clip: {fileID: 8300000, guid: 7f3df43aee4396040a9a877ceabf895b, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: surf2_hit
+    clip: {fileID: 8300000, guid: 7dc47732441ea424d9a0cb65746266c1, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: boss_bullet_explosion
+    clip: {fileID: 8300000, guid: 5ea0e07d5db737948a640efcd0a9f47d, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: upgrade
+    clip: {fileID: 8300000, guid: 07dceef01748dbf4b8c2a03de03105d0, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: explosion
+    clip: {fileID: 8300000, guid: 902e92480d4b8244896f1b53bd95b8aa, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: explosion2
+    clip: {fileID: 8300000, guid: 3189898fd71b6dd498e8eec75b4d41d0, type: 3}
+    loop: 0
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
+  - name: teleport
+    clip: {fileID: 8300000, guid: 1a29d55136d704442978c08901ca9ae3, type: 3}
+    loop: 1
+    volume: 0.497
+    pitch: 1
+    source: {fileID: 0}
